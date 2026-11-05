@@ -6,7 +6,7 @@
  ----------------------------------------------------------------- 
 
 
-# AWS Microservices Lab Project
+# AWS MicroservicesProject
 
 A containerized, multi-tier microservices architecture deployed on AWS using **Amazon ECS (Fargate)**, **AWS CodeCommit**, and **AWS CodeDeploy**. 
 
