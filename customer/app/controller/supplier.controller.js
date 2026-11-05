@@ -1,9 +1,10 @@
 const Supplier = require("../models/supplier.model.js");
+const {body, validationResult} = require("express-validator");
 
 exports.findAll = (req, res) => {
     Supplier.getAll((err, data) => {
         if (err)
-            res.render("500", {message: "There was a problem retrieving the list of suppliers"});
+            res.render("500", {message: "The was a problem retrieving the list of suppliers"});
         else res.render("supplier-list-all", {suppliers: data});
     });
 };

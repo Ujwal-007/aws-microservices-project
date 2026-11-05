@@ -4,8 +4,8 @@
   "description": "simple coffee parners API",
   "main": "index.js",
   "scripts": {
-    "start": "APP_DB_HOST=$APP_DB_HOST node index.js"
-  },
+  "start": "APP_PORT=8080 APP_DB_HOST=$APP_DB_HOST node index.js"
+},
   "author": "aws t&c",
   "license": "MIT",
   "dependencies": {
