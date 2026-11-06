@@ -29,6 +29,15 @@ The application is split into two core Node.js microservices:
 * **Monitoring**: Amazon CloudWatch log groups for centralized service logging.
 
 ---
+## 🖼️ Architecture & Deployment Proof
+
+### 1. Microservices Architecture Topology
+![Architecture Diagram](./cafe-microservices-architecture.png)
+
+### 2. Deployment Verification Proof
+![Deployment Proof 1](./Screenshot%202026-11-04%20105647.png)
+![Deployment Proof 2](./Screenshot%202026-11-04%20105804.png)
+![Deployment Proof 3](./Screenshot%202026-11-04%20123611.png)
 
 ## 📁 Repository Structure
 
@@ -53,12 +62,5 @@ The application is split into two core Node.js microservices:
 │   └── taskdef-employee.json  # ECS Task Definition for Employee service
 ├── labuser.pem                # SSH key material
 └── README.md
-## 🖼️ Architecture & Deployment Proof
 
-### 1. Microservices Architecture Topology
-![Architecture Diagram](./cafe-microservices-architecture.png)
 
-### 2. Deployment Verification Proof
-![Deployment Proof 1](./Screenshot%202026-11-04%20105647.png)
-![Deployment Proof 2](./Screenshot%202026-11-04%20105804.png)
-![Deployment Proof 3](./Screenshot%202026-11-04%20123611.png)
